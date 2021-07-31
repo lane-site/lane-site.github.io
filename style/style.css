@@ -15,7 +15,7 @@ body {
 }
 em {font-style:normal;font-size:1.2em;}
 i {font-style:normal;color:#00ff77;}
-h1, h2, h3, h4, h5, h6, p, hr, li, .etc {
+h1, h2, h3, h4, p, hr, li, .etc {
   width:100%;
   max-width:40rem;
   margin:0 auto;
