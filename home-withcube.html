@@ -403,7 +403,142 @@ Was meine <a href="https://queer-lexikon.net/2017/06/15/gender/" target="content
 Auch bin ich Programmierer. Aktuell kann ich (nur) <a href="https://de.wikipedia.org/wiki/Python_(Programmiersprache)" target="content">Python</a> (genau genommen Pyhton 3) und <a href="https://de.wikipedia.org/wiki/Hypertext_Markup_Language" target="content">HTML</a> (und <a href="https://de.wikipedia.org/wiki/HTML5" target="content">HTML5</a>). Auch lerne ich gerade <a href="https://de.wikipedia.org/wiki/JavaScript" target="content">JavaScript</a>.<br />
 Ich benutze auf meinem Haupt-PC selten <a href="https://de.wikipedia.org/wiki/Microsoft_Windows_10" target="content">Windows 10</a> (nur für anspruchsvollere Spiele) und meistens <a href="https://de.wikipedia.org/wiki/Linux" target="content">Linux</a> (genau genommen <a href="https://de.wikipedia.org/wiki/Linux_Mint" target="content">Linux Mint</a>). Auf meinem 2. PC (steht bei meinen Großeltern) steht ein PC nut mit Linux Mint drauf.
 <hr>
-  
+
+<!-- Nice sayings start -->
+<div class="container">
+  <div class="text"></div>
+</div>
+  <script>
+  class TextScramble {
+  constructor(el) {
+    this.el = el;
+    this.chars = '!<>-_\\/[]{}—=+*^?#________';
+    this.update = this.update.bind(this);
+  }
+  setText(newText) {
+    const oldText = this.el.innerText;
+    const length = Math.max(oldText.length, newText.length);
+    const promise = new Promise(resolve => this.resolve = resolve);
+    this.queue = [];
+    for (let i = 0; i < length; i++) {
+      const from = oldText[i] || '';
+      const to = newText[i] || '';
+      const start = Math.floor(Math.random() * 40);
+      const end = start + Math.floor(Math.random() * 40);
+      this.queue.push({ from, to, start, end });
+    }
+    cancelAnimationFrame(this.frameRequest);
+    this.frame = 0;
+    this.update();
+    return promise;
+  }
+  update() {
+    let output = '';
+    let complete = 0;
+    for (let i = 0, n = this.queue.length; i < n; i++) {
+      let { from, to, start, end, char } = this.queue[i];
+      if (this.frame >= end) {
+        complete++;
+        output += to;
+      } else if (this.frame >= start) {
+        if (!char || Math.random() < 0.28) {
+          char = this.randomChar();
+          this.queue[i].char = char;
+        }
+        output += `<span class="dud">${char}</span>`;
+      } else {
+        output += from;
+      }
+    }
+    this.el.innerHTML = output;
+    if (complete === this.queue.length) {
+      this.resolve();
+    } else {
+      this.frameRequest = requestAnimationFrame(this.update);
+      this.frame++;
+    }
+  }
+  randomChar() {
+    return this.chars[Math.floor(Math.random() * this.chars.length)];
+  }}
+
+const phrases = [
+'The surest sign,',
+'that intelligent life',
+'exists',
+'in the univerrse',
+'is that it has',
+'never tried to contact us.',
+'- Bill Watterson',
+'',
+'Listen,',
+'sooner or later',
+'you\'re going to realize',
+'just as I did',
+'that there\'s a difference',
+'between knowing the path',
+'and walking the path',
+'- Unknown Author',
+'',
+'Good judgment',
+'comes from experience,',
+'comes from bad judgment',
+'- Rita Mae Brown',
+'',
+'No matter what they say,',
+'you are valid!',
+'- Felix (Lane) Heip',
+'',
+'The difference',
+'between stupidity',
+'and genius',
+'is that genius',
+'has its liits.',
+'- Albert Einstein',
+'',
+'I always wanted',
+'to be somebody,',
+'but now I relaize',
+'I should have been',
+'more specific.',
+'- Lily Tomlin',
+'',
+'When I was a kid',
+'my parents moved a lot,',
+'but I always found them',
+'- Rodney Dangerfield',
+'',
+'Experience is',
+'a wonderful thing.',
+'It enables you',
+'to recognize a mistake',
+'when you make it again.',
+'- Franklin Jones',
+'',
+'Write a wise saying',
+'and your name',
+'will live',
+'forever.',
+'- Unknown Author',
+'',];
+
+
+const el = document.querySelector('.text');
+const fx = new TextScramble(el);
+
+let counter = 0;
+const next = () => {
+  fx.setText(phrases[counter]).then(() => {
+    setTimeout(next, 800);
+  });
+  counter = (counter + 1) % phrases.length;
+};
+
+next();
+  </script>
+<br />
+<!-- Nice sayings end -->
+
 <p class="etc">Kontaktiere mich <a href="https://fh-site.github.io/info/contact.html">HIER</a>.<br />
 Meinen Blog kannst du <a href="https://fh-site.github.io/blog/index.html">HIER</a> lesen.<br />
 Zurück zur Startseite geht's mit <a href="https://fh-site.github.io/additional-stuff/whoops.html">diesem Knopf hier</a>.<br />
