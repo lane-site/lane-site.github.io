@@ -56,34 +56,6 @@ Ich benutze auf meinem Haupt-PC selten <a href="https://de.wikipedia.org/wiki/Mi
 <hr>
 
 <!-- Nice sayings start -->
-<style>
-    @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
-    .container {
-      height: 100%;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-      display: flex;
-    }
-
-    .text {
-      font-weight: 100;
-      font-size: 28px;
-      color: #fafafa;
-    }
-
-    @media screen and (max-width: 320px) {
-        .code-area {
-		    font-size: 5vw;
-		    min-width: auto;
-            width: 95%;
-		    margin: auto;
-		    padding: 5px;
-		    padding-left: 10px;
-		    line-height: 6.5vw;
-        }
-    }
-  </style>
 <div class="container">
   <div class="text"></div>
 </div>
@@ -209,7 +181,7 @@ const fx = new TextScramble(el);
 let counter = 0;
 const next = () => {
   fx.setText(phrases[counter]).then(() => {
-    setTimeout(next, 1000);
+    setTimeout(next, 1200);
   });
   counter = (counter + 1) % phrases.length;
 };
