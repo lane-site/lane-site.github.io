@@ -17,19 +17,24 @@
 </head>
 <body>
   
-<!-- moving header start -->
-<div id="load">
-  <div>E</div>
-  <div>M</div>
-  <div>O</div>
-  <div>C</div>
-  <div>L</div>
-  <div>E</div>
-  <div>W</div>
+<!-- Buttons start -->
+<div class="em">
+<p><em><button class="button" onclick="blog();">Blog</button></em>
+<em><button class="button" onclick="home();">Home</button></em>
+<em><button class="button" onclick="legal();">Legal</button></p></em>
+</div>     
+<div class="container">
+  <div class="text"></div>
 </div>
-<br />
-<br />
-<!-- moing header end -->
+<script>
+function legal() {
+  location.replace("https://fh-site.github.io/info/legal.html ")
+}
+function home() {
+  location.replace("https://fh-site.github.io/additional-stuff/whoops.html")
+}
+</script>
+<!-- Buttons end -->
   
 <h1>Welcome<br />to<br />my<br />website</h1>
 <p><em>Willkommen auf meiner Webseite. Ich bin Felix (aka. Lane). Auf dieser Seite erzähle ich dir einiges über
