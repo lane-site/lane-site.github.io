@@ -84,9 +84,9 @@ hr:before {
 #load {
   position:absolute;
   width:600px;
-  height:86px;
+  height:36px;
   left:50%;
-  top:5%;
+  top:25%;
   margin-left:-300px;
   overflow:visible;
   -webkit-user-select:none;
