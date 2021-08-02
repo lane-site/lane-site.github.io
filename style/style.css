@@ -99,7 +99,7 @@ hr:before {
 #load div {
   position:absolute;
   width:20px;
-  height:36px;
+  height:86px;
   opacity:0;
   font-family:Helvetica, Arial, sans-serif;
   animation:move 2s linear infinite;
