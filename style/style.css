@@ -324,10 +324,6 @@ hr:before {
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -342,10 +338,6 @@ hr:before {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
