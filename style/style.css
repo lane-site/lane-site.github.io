@@ -284,6 +284,8 @@ hr:before {
     }
 }
 .main_button {
+  position: relative;
+  vertical-align: middle;
   background-color: #38497d;
   border: none;
   color: white;
@@ -299,6 +301,8 @@ hr:before {
       
 }
 .main_button:hover {
+  position: relative;
+  vertical-align: middle;
   background-color: #576cab; 
   border: none;
   color: white;
@@ -315,6 +319,8 @@ hr:before {
 	
 }
 .button {
+  position: relative;
+  vertical-align: middle;
   background-color: #38497d;
   border: none;
   color: white;
@@ -330,6 +336,8 @@ hr:before {
         
 }
 .button:hover {
+  position: relative;
+  vertical-align: middle;
   background-color: #576cab; 
   border: none;
   color: white;
