@@ -292,7 +292,9 @@ hr:before {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  margin: auto;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
   text-align:center;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -308,7 +310,9 @@ hr:before {
   text-decoration: none;
   display: inline-block;
   font-size: 26px;
-  margin: auto;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
   text-align:center;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -324,7 +328,9 @@ hr:before {
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  margin: auto;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
   text-align:center;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -340,7 +346,9 @@ hr:before {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  margin: auto;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
