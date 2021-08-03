@@ -292,7 +292,8 @@ hr:before {
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  margin: 4px 2px;
+  /* margin: 4px 2px; */
+  text-align:center;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -307,7 +308,8 @@ hr:before {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  margin: 4px 2px;
+  /* margin: 4px 2px; */
+  text-align:center;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
