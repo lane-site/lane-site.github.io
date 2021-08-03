@@ -287,11 +287,11 @@ hr:before {
   background-color: #38497d; /* Green */
   border: none;
   color: white;
-  padding: 8px 19px;
+  padding: 10px 21px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: 19px;
   /* margin: 4px 2px; */
   text-align:center;
   cursor: pointer;
@@ -303,11 +303,11 @@ hr:before {
   background-color: #576cab; /* Green */
   border: none;
   color: white;
-  padding: 13px 35px;
+  padding: 15px 37px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 25px;
   /* margin: 4px 2px; */
   text-align:center;
   cursor: pointer;
