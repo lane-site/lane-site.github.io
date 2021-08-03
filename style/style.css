@@ -318,7 +318,7 @@ hr:before {
   background-color: #38497d;
   border: none;
   color: white;
-  padding: 4px 14px;
+  padding: 4px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -333,7 +333,7 @@ hr:before {
   background-color: #576cab; 
   border: none;
   color: white;
-  padding: 8px 30px;
+  padding: 8px 24px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
