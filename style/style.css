@@ -292,13 +292,7 @@ hr:before {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -50px;
-  width: 100px;
-  height: 100px;
+  align-items: center;
   text-align:center;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -314,11 +308,7 @@ hr:before {
   text-decoration: none;
   display: inline-block;
   font-size: 26px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -50px;
+  align-items: center;
   width: 100px;
   height: 100px;
   text-align:center;
