@@ -14,7 +14,7 @@ body {
   background:#081421;
 }
 em {font-style:normal;font-size:1.2em;}
-btn {font-style:normal;font-size:1.2em;text-align:center;}
+btn {font-style:normal;font-size:1.2em;text-align:center;margin:0 auto;}
 i {font-style:normal;color:#00ff77;}
 h1, h2, h3, h4, p, hr, li, .etc {
   width:100%;
