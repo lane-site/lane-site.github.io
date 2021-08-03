@@ -5,6 +5,9 @@ function twitter() {
 function contact() {
   location.replace("https://fh-site.github.io/info/contact.html ")
 }
+function blog() {
+  location.replace("https://fh-site.github.io/blog/index.html ")
+}
 function home() {
   location.replace("https://fh-site.github.io/home.html")
 }
