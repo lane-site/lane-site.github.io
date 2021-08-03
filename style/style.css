@@ -318,11 +318,11 @@ hr:before {
   background-color: #38497d;
   border: none;
   color: white;
-  padding: 5px 16px;
+  padding: 7px 18px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: 15px;
   margin: 4px 2px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -333,11 +333,11 @@ hr:before {
   background-color: #576cab; 
   border: none;
   color: white;
-  padding: 10px 32px;
+  padding: 12px 34px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 21px;
   margin: 4px 2px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
