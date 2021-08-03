@@ -6,7 +6,7 @@ function contact() {
   location.replace("https://fh-site.github.io/info/contact.html ")
 }
 function home() {
-  location.replace("https://fh-site.github.io/additional-stuff/whoops.html")
+  location.replace("https://fh-site.github.io/home.html")
 }
 function legal() {
   location.replace("https://fh-site.github.io/info/legal.html ")
