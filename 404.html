@@ -1,82 +1,92 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="de" >
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="5; url='https://fh-site.github.io/additional-stuff/404.html'" />
-  <title>Felix/Lane - Searching</title>
+  <title>Felix/Lane - 404</title>
   <link rel="icon" href="https://fh-site.github.io/style/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0000FF">
-  <meta content="Felix/Lane" property="og:title">
-  <meta name="twitter:title" content="Felix/Lane">
-  <meta name="twitter:description" content="Das ist die Webseite von Felix (aka. Lane)">
-  <meta content="Das ist die Webseite von Felix (aka. Lane)" property="og:description">
-  <meta name="og:site_name" content="Felix/Lane">
+  <meta content="Felix Heip" property="og:title">
+  <meta name="twitter:title" content="Felix Heip">
+  <meta name="twitter:description" content="Das ist die Webseite von Felix Heip (aka. Lane)">
+  <meta content="Das ist die Webseite von Felix Heip (aka. Lane)" property="og:description">
+  <meta name="og:site_name" content="Felix Heip">
   <meta name="keywords" content="Felix, Lane, Heip, Felix Heip, Blog, Homepage">
   <meta name="description" content="Das ist die Webseite von Felix Heip (aka. Lane)">
-  
   <style>
-    @import url(https://fonts.googleapis.com/css?family=Muli);
-    h1, h2, div {
-      margin: 0;
-      padding: 0;
-    }
+body {
+    background: #081421;
+    color: #d3d7de;
+    font-family: "Courier new";
+    font-size: 18px;
+    line-height: 1.5em;
+	cursor: default;
+}
 
-    .done {
-      border: 2px solid #FFDB5C;
-    }
+a {
+	color: #fff;
+}
 
-    body {
-      width: 100vw;
-      height: 100vh;
-      overflow: hidden;
-      display: flex;
-      font-family: Muli;
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+.code-area {
+    position: absolute;
+    width: 320px;
+	min-width: 320px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 
-    .loading {
-      background: #081421;
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+.code-area > span {
+    display: block;
+}
+
+@media screen and (max-width: 320px) {
+    .code-area {
+		font-size: 5vw;
+		min-width: auto;
+        width: 95%;
+		margin: auto;
+		padding: 5px;
+		padding-left: 10px;
+		line-height: 6.5vw;
     }
-    .loading .numerator {
-      text-align: center;
-      padding: 5vw;
-    }
-    .loading .numerator h2 {
-      font-size: 40px;
-      font-weight: 100;
-      color: #FFDB5C;
-    }
-    .loading .numerator h1 {
-      color: white;
-      font-size: 60px;
-      margin-top: 0px;
-    }
-    .loading .numerator hr {
-      display: block;
-      box-sizing: border-box;
-      border: 2px dashed #FFDB5C;
-      box-shadow: 0 0 10px 0 #DDA288;
-    }
+}
   </style>
 </head>
-  
 <body>
-<div class="loading">
-  <div class="numerator">
-    <h2>Searching...</h2>
-    <h1>0%</h1>
-    <hr/>
-  </div>
+<div class="code-area">
+  <span style="color: #777;font-style:italic;">
+    // 404 page not found.
+  </span>
+  <span>
+    <span style="color:#d65562;">
+      if
+    </span>
+	  (<span style="color:#4ca8ef;">!</span><span style="font-style: italic;color:#bdbdbd;">found</span>)
+    {
+  </span>
+  <span>
+    <span style="padding-left: 15px;color:#2796ec">
+       <i style="width: 10px;display:inline-block"></i>throw
+    </span>
+    <span>
+      (<span style="color: #a6a61f">"(╯°□°)╯︵ ┻━┻"</span>);
+    </span>
+	  <span style="display:block">}</span>
+	  <span style="color: #777;font-style:italic;">
+		  // <a href="https://fh-site.github.io/home.html">Go to homepage!</a>
+	  </span>
+  </span>
 </div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script src="./style/loading.js"></script>
+
+<!-- Nice sayings start -->
+<div class="container">
+  <div class="text"></div>
+</div>
+  <script src="https://fh-site.github.io/additional-stuff/sayings/v2.js"></script>
+<br />
+<!-- Nice sayings end -->
 
 </body>
 </html>
