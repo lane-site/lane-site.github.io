@@ -12,7 +12,7 @@ function home() {
   location.replace("https://fh-site.github.io/home.html")
 }
 function home_whoops() {
-  location.replace("https://fh-site.github.io/home.html")
+  location.replace("fh-site.github.io/additional-stuff/whoops.html")
 }
 function legal() {
   location.replace("https://fh-site.github.io/info/legal.html ")
