@@ -11,6 +11,9 @@ function blog() {
 function home() {
   location.replace("https://fh-site.github.io/home.html")
 }
+function home_whoops() {
+  location.replace("https://fh-site.github.io/home.html")
+}
 function legal() {
   location.replace("https://fh-site.github.io/info/legal.html ")
 }
