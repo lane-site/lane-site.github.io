@@ -12,8 +12,7 @@ function home() {
   location.replace("https://fh-site.github.io/de/home.html")
 }
 function home_rr() {
-  window.open(
-              "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
+  location.replace("https://fh-site.github.io/de/home.html")
 }
 function legal() {
   location.replace("https://fh-site.github.io/de/info/legal.html ")
