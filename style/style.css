@@ -352,3 +352,43 @@ hr:before {
   transition-duration: 0.4s;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
+.lang_button {
+  vertical-align: right;
+  background-color: #38497d;
+  border: none;
+  color: white;
+  padding: 2px 5px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+        
+}
+.lang_button:hover {
+  vertical-align: right;
+  background-color: #576cab; 
+  border: none;
+  color: white;
+  padding: 3px 6px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn_en {
+  right: 10px;
+  position: absolute;
+}
+.btn_de {
+  right: 40px;
+  position: absolute;
+}
