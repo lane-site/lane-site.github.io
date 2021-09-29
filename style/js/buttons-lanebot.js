@@ -3,19 +3,19 @@ function twitter() {
               "https://twitter.com/das_bread", "_blank");
 }
 function contact() {
-  location.replace("https://fh-site.github.io/de/info/contact.html ")
+  location.replace("https://lane-site.github.io/de/info/contact.html ")
 }
 function blog() {
-  location.replace("https://fh-site.github.io/de/blog/index.html ")
+  location.replace("https://lane-site.github.io/de/blog/index.html ")
 }
 function home() {
-  location.replace("https://fh-site.github.io/de/additional-stuff/laneBOT/")
+  location.replace("https://lane-site.github.io/de/additional-stuff/laneBOT/")
 }
 function legal() {
-  location.replace("https://fh-site.github.io/de/info/legal.html ")
+  location.replace("https://lane-site.github.io/de/info/legal.html ")
 }
 function projects() {
-  location.replace("https://fh-site.github.io/de/info/projects.html ")
+  location.replace("https://lane-site.github.io/de/info/projects.html ")
 }
 function github() {
   window.open(
