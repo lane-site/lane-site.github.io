@@ -36,6 +36,7 @@ The control icons are from a custom font. Each icon corresponds to a character
   outline: 0;
   position: relative;
   cursor: pointer;
+  z-index: 0;
   padding: 0;
   /* background-color-with-alpha */
   background-color: #333333;
@@ -46,9 +47,11 @@ The control icons are from a custom font. Each icon corresponds to a character
   -webkit-box-shadow: 0 0 2em #fff;
   -moz-box-shadow: 0 0 2em #fff;
   box-shadow: 0 0 2em #fff;
+  z-index: 0;
 }
 .vjs-default-skin .vjs-slider-handle {
   position: absolute;
+  z-index: 0;
   /* Needed for IE6 */
   left: 0;
   top: 0;
@@ -59,6 +62,7 @@ The control icons are from a custom font. Each icon corresponds to a character
   font-size: 1em;
   line-height: 1;
   text-align: center;
+  z-index: 0;
   text-shadow: 0em 0em 1em #fff;
   position: absolute;
   top: 0;
@@ -96,6 +100,7 @@ The default control bar that is a container for most of the controls.
 .vjs-default-skin .vjs-control {
   outline: none;
   position: relative;
+  z-index: 0;
   float: left;
   text-align: center;
   margin: 0;
@@ -108,9 +113,11 @@ The default control bar that is a container for most of the controls.
   font-family: VideoJS;
   font-size: 1.5em;
   line-height: 2;
+  z-index: 0;
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 0;
   width: 100%;
   height: 100%;
   text-align: center;
