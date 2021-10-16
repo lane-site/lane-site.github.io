@@ -8,6 +8,7 @@
 }
 body {
   padding:3em 1em;
+  z-index: 0;
   font-family: 'Ubuntu Mono', sans-serif;
   line-height:1.6em;
   color:white;
@@ -19,6 +20,7 @@ i {font-style:normal;color:#00ff77;}
 h1, h2, h3, h4, p, hr, li, .etc {
   width:100%;
   max-width:40rem;
+  z-index: 0;
   margin:0 auto;
 }
 p {padding-bottom:1em;}
@@ -27,6 +29,7 @@ h1 {
   padding:3rem 0 6rem 0;
   font-size:3em;
   line-height:1em;
+  z-index: 0;
   font-weight:700;
   text-transform:uppercase;
   letter-spacing:5px;
@@ -36,23 +39,27 @@ h1:before {
   position:absolute;
   top:0;
   left:0;
+  z-index: 0;
   color:#00ff77;
 }
 h1:after {
   content:'\2013\2013\3E';
   position:absolute;
   bottom:3rem;
+  z-index: 0;
   left:0;
   color:#fe0002;
 }
 hr {
   position:relative;
   padding:3rem 0;
+  z-index: 0;
   border:none;
 }
 hr:before {
   content:'\2044\2217\2013\2013\2013\2013\2013\2217\2044';
   position:absolute;
+  z-index: 0;
   top:1.2rem;
   right:0;
   left:0;
@@ -65,10 +72,12 @@ hr:before {
   padding:6rem 0 1rem 0;
   text-align:center;
   color:#fe0002;
+  z-index: 0;
 }
 .etc a {color:#fe0002;}
 .etc:before {
   content:'\2022';
+  z-index: 0;
   position:absolute;
   top:1rem;
   left:50%;
@@ -79,11 +88,13 @@ hr:before {
 .filled-circle {
   padding: 2px 5px;
   border-radius: 100%;
+  z-index: 0;
   background-color: #FFFFFF;
 }
 
 #load {
   position:absolute;
+  z-index: 0;
   width:600px;
   height:36px;
   left:50%;
@@ -102,6 +113,7 @@ hr:before {
   width:20px;
   height:86px;
   opacity:0;
+  z-index: 0;
   font-family:Helvetica, Arial, sans-serif;
   animation:move 2s linear infinite;
   -o-animation:move 2s linear infinite;
@@ -118,6 +130,7 @@ hr:before {
   animation-delay:0.2s;
   -o-animation-delay:0.2s;
   -moz-animation-delay:0.2s;
+  z-index: 0;
   -webkit-animation-delay:0.2s;
 }
 #load div:nth-child(3) {
@@ -125,21 +138,25 @@ hr:before {
   -o-animation-delay:0.4s;
   -webkit-animation-delay:0.4s;
   -webkit-animation-delay:0.4s;
+  z-index: 0;
 }
 #load div:nth-child(4) {
   animation-delay:0.6s;
   -o-animation-delay:0.6s;
+  z-index: 0;
   -moz-animation-delay:0.6s;
   -webkit-animation-delay:0.6s;
 }
 #load div:nth-child(5) {
   animation-delay:0.8s;
+  z-index: 0;
   -o-animation-delay:0.8s;
   -moz-animation-delay:0.8s;
   -webkit-animation-delay:0.8s;
 }
 #load div:nth-child(6) {
   animation-delay:1s;
+  z-index: 0;
   -o-animation-delay:1s;
   -moz-animation-delay:1s;
   -webkit-animation-delay:1s;
@@ -147,6 +164,7 @@ hr:before {
 #load div:nth-child(7) {
   animation-delay:1.2s;
   -o-animation-delay:1.2s;
+  z-index: 0;
   -moz-animation-delay:1.2s;
   -webkit-animation-delay:1.2s;
 }
@@ -154,12 +172,14 @@ hr:before {
 @keyframes move {
   0% {
     left:0;
+    z-index: 0;
     opacity:0;
   }
 	35% {
 		left: 41%; 
 		-moz-transform:rotate(0deg);
 		-webkit-transform:rotate(0deg);
+    z-index: 0;
 		-o-transform:rotate(0deg);
 		transform:rotate(0deg);
 		opacity:1;
@@ -170,11 +190,13 @@ hr:before {
 		-webkit-transform:rotate(0deg); 
 		-o-transform:rotate(0deg);
 		transform:rotate(0deg); 
+    z-index: 0;
 		opacity:1;
 	}
 	100% {
 		left:100%; 
 		-moz-transform:rotate(-180deg); 
+    z-index: 0;
 		-webkit-transform:rotate(-180deg); 
 		-o-transform:rotate(-180deg); 
 		transform:rotate(-180deg);
@@ -191,12 +213,14 @@ hr:before {
 		left:41%; 
 		-moz-transform:rotate(0deg); 
 		transform:rotate(0deg);
+    z-index: 0;
 		opacity:1;
 	}
 	65% {
 		left:59%; 
 		-moz-transform:rotate(0deg); 
 		transform:rotate(0deg);
+    z-index: 0;
 		opacity:1;
 	}
 	100% {
@@ -204,6 +228,7 @@ hr:before {
 		-moz-transform:rotate(-180deg); 
 		transform:rotate(-180deg);
 		opacity:0;
+    z-index: 0;
 	}
 }
 
@@ -217,18 +242,21 @@ hr:before {
 		-webkit-transform:rotate(0deg); 
 		transform:rotate(0deg); 
 		opacity:1;
+    z-index: 0;
 	}
 	65% {
 		left:59%; 
 		-webkit-transform:rotate(0deg); 
 		transform:rotate(0deg); 
 		opacity:1;
+    z-index: 0;
 	}
 	100% {
 		left:100%;
 		-webkit-transform:rotate(-180deg); 
 		transform:rotate(-180deg); 
 		opacity:0;
+    z-index: 0;
 	}
 }
 
@@ -263,6 +291,7 @@ hr:before {
   width: 100%;
   justify-content: center;
   align-items: center;
+  z-index: 0;
   display: flex;
 }
 
@@ -270,6 +299,7 @@ hr:before {
   font-weight: 100;
   font-size: 28px;
   color: #fafafa;
+  z-index: 0;
 }
 
 @media screen and (max-width: 320px) {
@@ -280,6 +310,7 @@ hr:before {
 		margin: auto;
 		padding: 5px;
 		padding-left: 10px;
+    z-index: 0;
 		line-height: 6.5vw;
     }
 }
@@ -292,6 +323,7 @@ hr:before {
   padding: 7px 18px;
   text-align: center;
   text-decoration: none;
+  z-index: 0;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
@@ -304,6 +336,7 @@ hr:before {
   position: relative;
   vertical-align: middle;
   background-color: #576cab; 
+  z-index: 0;
   border: none;
   color: white;
   padding: 12px 34px;
@@ -323,6 +356,7 @@ hr:before {
   vertical-align: middle;
   background-color: #38497d;
   border: none;
+  z-index: 0;
   color: white;
   padding: 4px 10px;
   text-align: center;
@@ -344,6 +378,7 @@ hr:before {
   padding: 8px 24px;
   text-align: center;
   text-decoration: none;
+  z-index: 0;
   display: inline-block;
   font-size: 18px;
   margin: 4px 2px;
@@ -362,6 +397,7 @@ hr:before {
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
+  z-index: 0;
   margin: 4px 2px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -376,6 +412,7 @@ hr:before {
   padding: 3px 6px;
   text-align: right;
   text-decoration: none;
+  z-index: 0;
   display: inline-block;
   font-size: 13px;
   margin: 4px 2px;
@@ -387,14 +424,17 @@ hr:before {
 .btn_en {
   right: 10px;
   position: absolute;
+  z-index: 0;
 }
 .btn_de {
   right: 40px;
   position: absolute;
+  z-index: 0;
 }
-.cookie-banner {
+.info-banner {
 	position: fixed;
 	bottom: 40px;
+  z-index: 1;
 	left: 10%;
   right: 10%;
   width: 80%;
@@ -402,16 +442,19 @@ hr:before {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #eee;
-  border-radius: 5px;
+  background-color: #000000;
+  border-radius: 20px;
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .close {
-  height: 20px;
-  background-color: #777;
-  border: none;
+  height: 30px;
+  background-color: #1696d7;
+  width: 40px;
+  height: 20;
+  border: 10px;
+  z-index: 1;
   color: white;
-  border-radius: 2px;
+  border-radius: 20px;
   cursor: pointer;
 }
