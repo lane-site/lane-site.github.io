@@ -343,6 +343,8 @@ hr:before {
   text-decoration: none;
   z-index: 0;
   display: inline-block;
+  border-radius: 13px;
+  border: 0px;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
@@ -378,6 +380,8 @@ hr:before {
   color: white;
   padding: 4px 10px;
   text-align: center;
+  border-radius: 13px;
+  border: 0px;
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
@@ -411,6 +415,8 @@ hr:before {
   border: none;
   color: white;
   padding: 2px 5px;
+  border-radius: 13px;
+  border: 0px;
   text-align: right;
   z-index: 0;
   text-decoration: none;
