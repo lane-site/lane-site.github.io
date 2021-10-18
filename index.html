@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="2; url='https://lane-site.github.io/de/home.html'" />
+  <title>Lane - Loading</title>
+  <link rel="icon" href="https://lane-site.github.io/style/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0000FF">
+  <meta content="Lane" property="og:title">
+  <meta name="twitter:title" content="Lane">
+  <meta name="twitter:description" content="Das ist die Webseite von Felix (aka. Lane)">
+  <meta content="Das ist die Webseite von Felix (aka. Lane)" property="og:description">
+  <meta name="og:site_name" content="Lane">
+  <meta name="keywords" content="Felix, Lane, Heip, Felix Heip, Blog, Homepage">
+  <meta name="description" content="Das ist die Webseite von Felix Heip (aka. Lane)">
+  
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Muli);
+    h1, h2, div {
+      margin: 0;
+      padding: 0;
+    }
+
+    .done {
+      border: 2px solid #5cc2ff;
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      font-family: Muli;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    .loading {
+      background: #140101;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .loading .numerator {
+      text-align: center;
+      padding: 5vw;
+    }
+    .loading .numerator h2 {
+      font-size: 40px;
+      font-weight: 100;
+      color: #5cc2ff;
+    }
+    .loading .numerator h1 {
+      color: white;
+      font-size: 60px;
+      margin-top: 0px;
+    }
+    .loading .numerator hr {
+      display: block;
+      box-sizing: border-box;
+      border: 2px dashed #5cc2ff;
+      box-shadow: 0 0 10px 0 #DDA288;
+    }
+  </style>
+</head>
+  
+<body>
+<!-- partial:index.partial.html -->
+<div class="loading">
+  <div class="numerator">
+    <h2>Loading</h2>
+    <h1>0%</h1>
+    <hr/>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script src="./style/js/loading.js"></script>
+
+</body>
+</html>
