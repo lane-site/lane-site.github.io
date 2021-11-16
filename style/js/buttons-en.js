@@ -1,6 +1,6 @@
 function twitter() {
   window.open(
-              "https://twitter.com/das_bread", "_blank");
+              "https://twitter.com/prombelkind", "_blank");
 }
 function contact() {
   location.replace("https://lane-site.github.io/en/info/contact.html ")
